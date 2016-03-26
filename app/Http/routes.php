@@ -18,3 +18,15 @@ Route::group(['middleware' => ['web']], function () {
     });
 
 });
+
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+
+    Route::get('/home', 'HomeController@index');
+});
+
+Route::get('overview', 'PagesController@overview');
+
+Route::get('contact', 'PagesController@contact');
+
+Route::get('about', 'PagesController@about');

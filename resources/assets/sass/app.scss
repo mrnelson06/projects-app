@@ -1,2 +1,17 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+body {
+  font-family: 'Oxygen';
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+}
+
+.navbar-brand {
+  font-family: 'Montserrat';
+}
+
+.fa-btn {
+  margin-right: 6px;
+}
