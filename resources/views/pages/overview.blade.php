@@ -4,7 +4,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1 class="text-uppercase">{{ $first }} {{$last}}</h1>
+        <h1 class="text-uppercase">All of the projects!</h1>
         <p>Learning new skills, honing new ones, and breaking things really good. Here are the projects that I'm working on!</p>
         <p><a class="btn btn-primary btn-lg text-uppercase" href="http:www.morganrnelson.com" role="button">Morgan R. Nelson.com &raquo;</a></p>
     </div>
@@ -85,16 +85,13 @@
     <hr>
 
     <footer>
-
-
-
         <div class="col-md-6 text-left hidden-xs hidden-sm hidden-md">
             <p>Copyright &copy; 2016 Morgan R. Nelson</p>
         </div>
         <div class="col-md-6 text-right hidden-xs hidden-sm hidden-md">
             <ul class="social-icons">
                 <li><a href="https://www.facebook.com/morgan.r.nelson" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                <li><a href="https://twitter.com/morgannelson" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></i></a></li>
+                <li><a href="https://twitter.com/morgannelson" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
                 <li><a href="https://www.pinterest.com/morgannelson" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a></li>
                 <li><a href="https://www.instagram.com/mrnelson06" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/morganrnelson" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
@@ -114,7 +111,6 @@
                 <li><a href="https://www.linkedin.com/in/morganrnelson" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
             </ul>
         </div>
-
     </footer>
 </div> <!-- /container -->
 
