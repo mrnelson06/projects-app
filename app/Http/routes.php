@@ -17,20 +17,14 @@ Route::group(['middleware' => ['web']], function () {
         return view('welcome');
     });
 
-});
-
-Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
-    Route::get('/home', 'HomeController@index');
+    Route::get('dashboard', 'HomeController@index');
+
+    Route::get('contact', 'PagesController@contact');
+
+    Route::get('about', 'PagesController@about');
+
+    Route::resource('articles', 'ArticlesController');
+
 });
-
-Route::get('overview', 'PagesController@overview');
-
-Route::get('contact', 'PagesController@contact');
-
-Route::get('about', 'PagesController@about');
-
-Route::get('articles', 'ArticlesController@index');
-
-Route::get('articles/{id}', 'ArticlesController@show');

@@ -8,11 +8,11 @@ use App\Http\Requests;
 
 class PagesController extends Controller
 {
-    public function overview()
-    {
-
-        return view('pages.overview');
-    }
+//    public function overview()
+//    {
+//
+//        return view('pages.overview');
+//    }
 
     public function contact()
     {

@@ -2,12 +2,12 @@
 
 @section('content')
     <div class="container">
-        <h1>{{ $article->title }}</h1>
-
-       <article>{{ $article->body }}</article>
-
-
-
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>{{ $article->title }}</h1>
+            </div>
+            <p>{{ $article->body }}</p>
+        </div>
     </div>
 
 
